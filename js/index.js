@@ -37,3 +37,16 @@ function fibonacci(n) {
 const result = fibonacci(n);
 alert ('Namber Fibonacci' + result);
 
+//Рекурсивний
+let r;
+do {
+    r = parseInt(prompt('Enter namber in sequence'));
+} while(isNaN(r));
+
+function fibonacciR(r) {
+  return r <= 1 ? r : fibonacciR(r - 1) + fibonacciR(r - 2);
+}
+alert('Namber Fibonacci' + fibonacciR(r));
+
+
+
