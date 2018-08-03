@@ -24,9 +24,10 @@ do {
 
 
 // Лінійна
+ 
+function fibonacci(n) {
   let a = 1;
   let b = 1;
-function fibonacci(n) {
   for (let i = 3; i <= n; i++) {
     let c = a + b;
     a = b;
@@ -49,4 +50,7 @@ function fibonacciR(r) {
 alert('Namber Fibonacci' + fibonacciR(r));
 
 
+
+   
+   
 
